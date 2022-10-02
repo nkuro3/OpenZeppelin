@@ -1,0 +1,28 @@
+{
+  "name": "openzeppelin",
+  "version": "1.0.0",
+  "description": "https://docs.openzeppelin.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkuro3/OpenZeppelin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkuro3/OpenZeppelin/issues"
+  },
+  "homepage": "https://github.com/nkuro3/OpenZeppelin#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.8.0-rc.1",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0"
+  }
+}
